@@ -2,5 +2,5 @@
 
 namespace GTA1GLOBAL::RENDER
 {
-    extern void AsyncRenderLoop();
+    extern void SyncRenderLoop();
 }

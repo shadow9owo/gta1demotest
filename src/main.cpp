@@ -11,14 +11,14 @@ int main()
 
     GTA1GLOBAL::gameinstance = GTA1GLOBAL::InitializeData();
 
-    Camera2D maincam = { 0 };
+    Camera2D maincam = { 0 }; // default
 
     while (!WindowShouldClose())
     {
         BeginDrawing();
         ClearBackground(BLACK); //def
 
-        GTA1GLOBAL::RENDER::AsyncRenderLoop();
+        GTA1GLOBAL::RENDER::SyncRenderLoop();
 
         EndDrawing();
     }

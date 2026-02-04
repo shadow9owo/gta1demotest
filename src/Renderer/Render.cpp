@@ -2,7 +2,7 @@
 
 namespace GTA1GLOBAL::RENDER
 {
-    void AsyncRenderLoop()
+    void SyncRenderLoop()
     {
         RenderDebugTextNow();
         return;
