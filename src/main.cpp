@@ -18,7 +18,7 @@ int main()
         BeginDrawing();
         ClearBackground(BLACK); //def
 
-        GTA1GLOBAL::RENDER::SyncRenderLoop();
+        GTA1GLOBAL::RENDER::SyncRenderLoop(); // render stuff
 
         EndDrawing();
     }
