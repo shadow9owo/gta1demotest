@@ -2,7 +2,7 @@
 
 namespace GTA1GLOBAL
 {
-    Data data;
+    Data gameinstance;
 
     PlayerInstance Data::player;
     BuildInstance Data::build;

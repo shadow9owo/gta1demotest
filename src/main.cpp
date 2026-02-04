@@ -9,7 +9,7 @@ int main()
     InitWindow(800,600," ");
     SetExitKey(0); 
 
-    GTA1GLOBAL::Data game_data = GTA1GLOBAL::InitializeData(); //redundant but oh well
+    GTA1GLOBAL::gameinstance = GTA1GLOBAL::InitializeData();
 
     Camera2D maincam = { 0 };
 

@@ -15,4 +15,5 @@ namespace GTA1GLOBAL
     };
 
     extern Data InitializeData();
+    extern Data gameinstance;
 }
