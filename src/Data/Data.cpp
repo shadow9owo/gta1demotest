@@ -1,5 +1,5 @@
 #include "Data.hpp"
-
+#include "assert.h"
 namespace GTA1GLOBAL
 {
     Data gameinstance;
@@ -22,7 +22,7 @@ namespace GTA1GLOBAL
         data_instance.build.debugmode = false;
         if (!data_instance.build.debugmode)
         {
-            static_assert("Remember to change me before release okay?");
+            assert("Remember to change me before release okay?");
         }
 
         return data_instance;
